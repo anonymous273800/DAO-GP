@@ -8,12 +8,12 @@ The DAO-GP framework is engineered for superior performance in non-stationary da
 
 **Run Instructions:** 
 1. No external libraries are needed, the only libraries needed are the basic python libraries (e.g. numpy, matplotlib, etc.)
-2. The project contains 5 types of experiments all located under Experiments > 001PaperFinalExperiments >
-   A. 001StationaryNonLinearRegression-2DVisualization
-   B. 002StationaryNonLinearRegressionStressTest
-   C. 003DriftNonLinearRegression-2DVisualization
-   D. 004DriftNonLinearRegressionRobustness
-   E. 005BenchmarkWithOtherModels
+2. The project contains 5 types of experiments all located under Experiments > 001PaperFinalExperiments >  
+   A. 001StationaryNonLinearRegression-2DVisualization  
+   B. 002StationaryNonLinearRegressionStressTest  
+   C. 003DriftNonLinearRegression-2DVisualization  
+   D. 004DriftNonLinearRegressionRobustness  
+   E. 005BenchmarkWithOtherModels  
 
 
 
