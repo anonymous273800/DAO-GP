@@ -16,6 +16,14 @@ The DAO-GP framework is engineered for superior performance in non-stationary da
    E. 005BenchmarkWithOtherModels  
 
 
+**DAO-GP Contributions:**
+1. Introducing DAO-GP, a novel online regression model designed for robust and adaptive learning in dynamic environments.
+2. DAO-GP incorporates a built-in drift detection mechanism that not only identifies distributional shifts but also classifies them by magnitude, enabling targeted adaptation strategies.
+3.  DAO-GP triggers kernel hyperparameter optimization only upon drift detection, thereby avoiding the inefficiencies of per-batch tuning.
+4.  The model maintains sparsity through inducing points and integrates a decay mechanism to down-weight outdated data, ensuring responsiveness to recent trends while reducing memory overhead.
+5.  DAO-GP is inherently hyperparameter-free, an essential property for online learning, where continuous data flow makes manual tuning infeasible.
+6.  Furthermore, it employs a diverse kernel pool to adaptively respond to distributional changes.
+7.  Computational efficiency is achieved via the Woodbury Matrix Identity, which reduces the complexity of kernel updates from O(n^3) to O(m^2n), where m ≪ n, enabling scalable and memory-efficient learning in streaming settings.  
 
 
 
