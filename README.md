@@ -28,10 +28,14 @@ The DAO-GP framework is engineered for superior performance in non-stationary da
 
 **Experiments:**
 
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
+![image alt](https://github.com/anonymous273800/DAO-GP/blob/ecd0c454e76cdd9d189d63506a186f83e7e08fd2/DAO-GP-Expr-A.png)
+
+![image alt](https://github.com/anonymous273800/DAO-GP/blob/ecd0c454e76cdd9d189d63506a186f83e7e08fd2/DAO-GP-Expr-B.png)
+
+![image alt](https://github.com/anonymous273800/DAO-GP/blob/ecd0c454e76cdd9d189d63506a186f83e7e08fd2/DAO-GP-Expr-C.png)
+
+![image alt](https://github.com/anonymous273800/DAO-GP/blob/ecd0c454e76cdd9d189d63506a186f83e7e08fd2/DAO-GP-Expr-D.png)
+
+![image alt](https://github.com/anonymous273800/DAO-GP/blob/ecd0c454e76cdd9d189d63506a186f83e7e08fd2/DAO-GP-Expr-E.png)
 
 
