@@ -16,6 +16,17 @@ The DAO-GP framework is engineered for superior performance in non-stationary da
    E. 005BenchmarkWithOtherModels  
 
 
+**Summary of Configuration Parameters:**
+DAO-GP is hyperparameters-free, but it involves a set of configuration parameters, below is a summary of these parameters with their utilization and settings:   
+1. Initial Kernel: The suggested initial kernel to start with (e.g. "rbf"), the models will not use this kernel if it finds another kernel within the pool with better performance, the initial kernel will be utilized if the difference between the best kernel and the initial kernel is within a defined threshold (ik-threshold).  
+2. ik-threshold: Initial Kernel Threshold.   
+3. Initial Batch Size: the size of the initial batch (e.g. 100 points).   
+4. Increment Size: The size of each incremental batch in the online learning process.  
+5. KPI: Key Performance Indicator (e.g. R2, MSE), utilzed in the memory-based drift detection and magnitude quantification, if R2 is specified, then the coefficient of determiniation (R2) is recorded per incoming mini-batch in the Sliding KPI-Window, and utilized as the measure to detect drift.  
+6. Z: Multipler Factor (e.g. 3.5, 2.5), determines the number of standard deviations from the mean, lower values are more strict in classifying drifts as abrupt, while higher values gives a more relazed approach (instants feeds should deviate heavily to be classifed as abrupt drifts).  
+7. Uncertainty Threshold: Any point that introduce an uncertainty higher than this threshold (e.g. 0.005), is considered a point that includes new information to gain.
+8. γ (decay gamma): controls the decay mechanism by giving less weight to the older observations, and hiher weight to the most recent ones.  1 (no decay), (.999 minor decay), (.95 hhigher decay).   
+
 **DAO-GP Contributions:**
 1. Introducing DAO-GP, a novel online regression model designed for robust and adaptive learning in dynamic environments.
 2. DAO-GP incorporates a built-in drift detection mechanism that not only identifies distributional shifts but also classifies them by magnitude, enabling targeted adaptation strategies.
