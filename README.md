@@ -16,7 +16,7 @@ The DAO-GP framework is engineered for superior performance in non-stationary da
    E. 005BenchmarkWithOtherModels  
 
 
-**Summary of Configuration Parameters:**
+**Summary of Configuration Parameters:**  
 DAO-GP is hyperparameters-free, but it involves a set of configuration parameters, below is a summary of these parameters with their utilization and settings:   
 1. Initial Kernel: The suggested initial kernel to start with (e.g. "rbf"), the models will not use this kernel if it finds another kernel within the pool with better performance, the initial kernel will be utilized if the difference between the best kernel and the initial kernel is within a defined threshold (ik-threshold).  
 2. ik-threshold: Initial Kernel Threshold.   
