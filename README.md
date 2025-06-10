@@ -5,3 +5,17 @@ The DAO-GP framework is engineered for superior performance in non-stationary da
 
 <img src="https://github.com/anonymous273800/DAO-GP/blob/08013799c4377b01c0bbe3f4a838c57ccf7e77c9/Model-Flow.png" alt="image alt" width="50%" height="auto">
 
+
+**Run Instructions:** 
+1. No external libraries are needed, the only libraries needed are the basic python libraries (e.g. numpy, matplotlib, etc.)
+2. The project contains 5 types of experiments all located under Experiments > 001PaperFinalExperiments >
+   A. 001StationaryNonLinearRegression-2DVisualization
+   B. 002StationaryNonLinearRegressionStressTest
+   C. 003DriftNonLinearRegression-2DVisualization
+   D. 004DriftNonLinearRegressionRobustness
+   E. 005BenchmarkWithOtherModels
+
+
+
+
+
